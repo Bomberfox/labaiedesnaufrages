@@ -1,0 +1,14 @@
+{
+  "name": "labaiedesnaufrages",
+  "version": "1.0.0",
+  "description": "Wsh c leu bote à Bomberfox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bomberfox",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
