@@ -39,7 +39,7 @@ bot.on("guildMemberAdd", function(member) {
     let role1 = member.guild.roles.find("name", "------------------Machines------------------");
     let role2 = member.guild.roles.find("name", "----------------------Jeux----------------------");
     let role3 = member.guild.roles.find("name", "--------------------Autres--------------------");
-    let role4 = member.guild.roles.find("name", "Echoué");
+    let role4 = member.guild.roles.find("name", "Mousse");
     member.addRole(role1).catch(console.error);
     member.addRole(role2).catch(console.error);
     member.addRole(role3).catch(console.error);
