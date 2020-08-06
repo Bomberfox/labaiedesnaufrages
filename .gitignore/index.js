@@ -17,9 +17,9 @@ bot.on('message', message => {
 
 bot.on("guildMemberAdd",function(member)
 {
-    let faction1 = member.guild.roles.find("name", "Richesse 💰");
-    let faction2 = member.guild.roles.find("name", "Gloire 🕊️");
-    let faction3 = member.guild.roles.find("name", "Pouvoir 🔨");
+    let faction1 = member.guild.roles.find("name", "Richesse");
+    let faction2 = member.guild.roles.find("name", "Gloire");
+    let faction3 = member.guild.roles.find("name", "Pouvoir");
     let chance = Math.floor(Math.random() * 3);
     if(chance == 0)
     {
